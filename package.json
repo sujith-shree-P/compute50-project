@@ -1,0 +1,29 @@
+{
+  "name": "smartflow-ai",
+  "version": "1.0.0",
+  "description": "AI-Powered Dynamic Intersection Congestion Resolution and Emergency Vehicle Green Corridor Management System",
+  "main": "backend/main.py",
+  "scripts": {
+    "start": "python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload",
+    "test": "pytest backend/tests/test_api.py -v"
+  },
+  "keywords": [
+    "smart-city",
+    "traffic-management",
+    "yolov8",
+    "computer-vision",
+    "fastapi",
+    "react",
+    "emergency-corridor",
+    "dijkstra"
+  ],
+  "author": "SmartFlow AI Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.17"
+  }
+}

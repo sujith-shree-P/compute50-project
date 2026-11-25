@@ -1,0 +1,44 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python byte-code and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / JS dependencies and builds
+node_modules/
+dist/
+build/
+.npm/
+.eslintcache
+
+# Model weights
+# (Keep instructions in README on downloading yolov8n.pt via curl or ultralytics)
+backend/models/*.pt
+backend/models/*.onnx
+
+# Temporary image uploads / run dumps
+uploads/
+runs/
+*.log
+.temp/
+
+# Environment files and credentials
+.env
+.env.local
+*.pem
+*.key
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
